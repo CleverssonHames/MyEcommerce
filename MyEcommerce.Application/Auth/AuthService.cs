@@ -14,7 +14,7 @@ namespace MyEcommerce.Application.Auth
 
         public AuthService(AuthRepository authRepository)
         {
-            
+            _authRepository = authRepository;
         }
         Task<UsuarioModel> IAuthService.Login(LoginJson request)
         {
