@@ -19,6 +19,7 @@ namespace MyEcommerce.Application.Auth
         Task<UsuarioModel> IAuthService.Login(LoginJson request)
         {
             var clevao = "Teste";
+            var clevao2 = "Teste";
             throw new NotImplementedException();
         }
 
