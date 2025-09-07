@@ -31,9 +31,7 @@ namespace MyEcommerce.Application.Auth
             {
                 throw new ErrorOnValidationException(resultado.Errors.Select(e => e.ErrorMessage).ToList());
             }
-
-
-
+            // Chamar o repository
             return new ResponseRegisterJson();
         }
     }
